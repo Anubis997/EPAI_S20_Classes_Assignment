@@ -3,9 +3,9 @@ from your_module import Person, Circle, Vehicle, ElectricVehicle, DynamicClass, 
 
 def test_person():
     person = Person('John', 'Doe', 1990)
-    assert person.age == 34  # Assuming the current year is 2024
+    assert person.age == 35  # Assuming the current year is 2024
     person.set_birth_year(1985)
-    assert person.age == 39
+    assert person.age == 40
     person.full_name = "Jane Smith"
     assert person.first_name == "Jane"
     assert person.last_name == "Smith"
